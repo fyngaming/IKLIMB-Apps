@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline - IKLIMB Apps PPIB</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #f0fdf4;
+      color: #064e3b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 1rem;
+      text-align: center;
+    }
+    .card {
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 25px -5px rgba(6, 78, 59, 0.15);
+      max-width: 380px;
+      width: 100%;
+      border-top: 5px solid #059669;
+    }
+    .icon {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 1.4rem;
+      margin: 0 0 0.5rem;
+      color: #065f46;
+    }
+    p {
+      font-size: 0.95rem;
+      color: #4b5563;
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+    button {
+      background: #059669;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 9999px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 0.95rem;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background: #047857;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">📶</div>
+    <h1>Anda Sedang Offline</h1>
+    <p>Koneksi internet Anda terputus. Buka kembali halaman ini setelah tersambung ke internet, atau gunakan Kartu Alumni QR yang tersimpan.</p>
+    <button onclick="window.location.reload()">Coba Muat Ulang</button>
+  </div>
+</body>
+</html>
